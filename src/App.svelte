@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from "svelte";
 
-	let tweetText = "";
+	let tweetText = "Loading...";
 
 	onMount(async () => {
 		const res = await fetch(`/api/composeTweet`);
@@ -11,7 +11,7 @@
 
 <main>
 	<h1>Web Rush tweet composer</h1>
-	<textarea bind:value={tweetText}>Loading...</textarea>
+	<textarea bind:value={tweetText}/>
 </main>
 
 <style>
