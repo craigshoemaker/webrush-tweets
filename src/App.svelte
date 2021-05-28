@@ -11,7 +11,7 @@
 
 <main>
 	<h1>Web Rush tweet composer</h1>
-	<textarea bind:value={tweetText} />
+	<textarea bind:value={tweetText}>Loading...</textarea>
 </main>
 
 <style>
