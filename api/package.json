@@ -1,15 +1,13 @@
 {
-  "name": "webrush-tweets",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "rss-parser": "^3.12.0"
-  }
+  },
+  "devDependencies": {}
 }
