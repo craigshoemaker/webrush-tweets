@@ -5,7 +5,7 @@ async function compose(rssUrl) {
   const episode = await rss.getLatestEpisode(rssUrl);
   const { title, content } = episode;
   const handles = sponsors.getTwitterHandles(content);
-  const slug = title.toLowerCase().replace(/:/g, '').replace(/ /g, '-');
+  const slug = title.toLowerCase().replace(/[(\/)\#:]/g, '').replace(/ /g, '-');
   const tweetText =
     `${title}
 
