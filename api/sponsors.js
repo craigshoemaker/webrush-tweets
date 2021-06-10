@@ -1,7 +1,7 @@
 
 const twitterHandles = {
   "ag-grid": "ag_grid",
-  "nrwl": "NxDevTools",
+  "nrwl": "nrwl_io",
   "ideablade": "IdeaBlade"
 };
 
