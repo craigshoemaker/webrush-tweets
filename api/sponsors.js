@@ -2,7 +2,8 @@
 const twitterHandles = {
   "ag-grid": "ag_grid",
   "nrwl": "nrwl_io",
-  "ideablade": "IdeaBlade"
+  "ideablade": "IdeaBlade",
+  "lemon-productions": "RealLemonHead"
 };
 
 function getSponsorKeys(content) {
