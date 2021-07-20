@@ -3,7 +3,8 @@ const twitterHandles = {
   "ag-grid": "ag_grid",
   "nrwl": "nrwl_io",
   "ideablade": "IdeaBlade",
-  "lemon-productions": "RealLemonHead"
+  "lemon-productions": "RealLemonHead",
+  "iconic-framewok": "ionicframework"
 };
 
 function getSponsorKeys(content) {
