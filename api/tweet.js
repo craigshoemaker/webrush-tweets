@@ -7,7 +7,9 @@ async function compose(rssUrl) {
   const handles = sponsors.getTwitterHandles(content);
   const slug = title.toLowerCase()
     .replace(/[()\#:]/g, '')
-    .replace(/[ \/]/g, '-');
+    .replace(/[ \/]/g, '-')
+    .replace(/-{2,}/g, '-')
+  ;
   const tweetText =
     `${title}
 
