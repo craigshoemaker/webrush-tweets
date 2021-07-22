@@ -2,6 +2,7 @@
 const twitterHandles = {
   "ag-grid": "ag_grid",
   "nrwl": "nrwl_io",
+  "narwhal": "nrwl_io",
   "ideablade": "IdeaBlade",
   "lemon-productions": "RealLemonHead",
   "iconic-framewok": "ionicframework"
