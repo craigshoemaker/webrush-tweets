@@ -10,7 +10,7 @@
 </script>
 
 <main>
-	<h1>Web Rush tweet composer!</h1>
+	<h1>Web Rush tweet composer</h1>
 	<textarea bind:value={tweetText}/>
 </main>
 
