@@ -9,6 +9,7 @@ async function compose(rssUrl) {
     .replace(/[()\#:]/g, '')
     .replace(/[ \/]/g, '-')
     .replace(/-{2,}/g, '-')
+    .replace(',', '')
   ;
   const tweetText =
     `${title}
