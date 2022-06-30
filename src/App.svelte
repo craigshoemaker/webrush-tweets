@@ -11,6 +11,7 @@
 
 <main>
 	<h1>Web Rush tweet composer</h1>
+	<p><a href="https://quillbot.com/" target="_blank">Paraphraser</a></p>
 	<textarea bind:value={tweetText}/>
 </main>
 
