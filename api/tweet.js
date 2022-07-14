@@ -2,6 +2,7 @@ const rss = require('./rss');
 const sponsors = require('./sponsors');
 
 async function compose(rssUrl) {
+  
   const episode = await rss.getLatestEpisode(rssUrl);
   const { title, content } = episode;
   const handles = sponsors.getTwitterHandles(content);
@@ -9,8 +10,9 @@ async function compose(rssUrl) {
     .replace(/[()\#:]/g, '')
     .replace(/[ \/]/g, '-')
     .replace(/-{2,}/g, '-')
-    .replace(',', '')
+    .replace(/,/g, '')
   ;
+  
   const tweetText =
     `${title}
 
