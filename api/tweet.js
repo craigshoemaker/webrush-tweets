@@ -18,10 +18,10 @@ async function compose(rssUrl) {
 
 ${episode.itunes.summary}
 
-Brought to you by: @${handles.join(' & @')}
+Listen now! 👇
+https://webrush.io/episodes/${slug}
 
-Check it out now! 👇
-https://webrush.io/episodes/${slug}`;
+Thanks: @${handles.join(' & @')}`;
 
   return tweetText;
 }
